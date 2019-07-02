@@ -15,7 +15,7 @@ public class youhavelived{
         int birthday;
         birthday=scnr.nextInt();
 
-        System.out.print("you have lived");
+        System.out.println("you have lived");
         System.out.print((2019-birthyear)*12+12-birthmonth+(30-birthday)/30);
         System.out.println("months");
         System.out.println("OR");
